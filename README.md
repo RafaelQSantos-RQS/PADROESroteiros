@@ -1,0 +1,1 @@
+Os roteiros a serem desenvolvidos a seguir visam trazer a percepção da evolução no processo de desenvolvimento de software. Por isso, iremos criar um projeto com vários pacotes, onde cada pacote representa a evolução da implementação deste projeto.
