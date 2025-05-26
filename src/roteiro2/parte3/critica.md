@@ -1,0 +1,3 @@
+A solução atual não contempla o padrão Template Method, mas possui os elementos para construí-lo. O código utiliza o padrão Strategy para o comportamento de corrida (RunBehavior), permitindo que a forma como um jogador corre seja alterada dinamicamente. No entanto, a sequência de ações de um jogador (treinar, definir tática, etc.) é controlada pelo cliente (TesteJogo), e não encapsulada em um método na classe base Player.
+
+Um verdadeiro Template Method definiria um esqueleto de algoritmo em um método na classe Player, adiando a implementação de etapas específicas para as subclasses. Atualmente, a classe TesteJogo é quem dita a sequência de chamadas: treinar(), estiloCompetidor(), definirTatica(), e correr().
