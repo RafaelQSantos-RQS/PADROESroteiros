@@ -1,0 +1,1 @@
+Consigo perceber que a remoção do Método correr() para CardPlayer: Isso pode indicar a aplicação do Princípio da Segregação de Interfaces (Interface Segregation Principle - ISP), onde a classe CardPlayer não implementa um método que não é relevante para seu comportamento
